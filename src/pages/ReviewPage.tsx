@@ -72,7 +72,7 @@ const MovieReviewPage: React.FC = () => {
 
         {/* Display the average rating */}
         <h2 className="text-2xl mb-4 text-customPurple">
-          {movie?.averageRating}/10
+          {movie?.averageRating || 0}/10
         </h2>
       </div>
       {/* Render the ReviewList component */}
